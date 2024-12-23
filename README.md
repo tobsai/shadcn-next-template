@@ -35,19 +35,8 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-<div>
-  <pre>
-    <code id="code-block">pnpm create next-app -e https://github.com/tobsai/shadcn-next-template</code>
-  </pre>
-  <button onclick="copyToClipboard()">Copy</button>
-</div>
+```bash
+pnpm create next-app -e https://github.com/tobsai/shadcn-next-template
 
-<script>
-  function copyToClipboard() {
-    const code = document.getElementById('code-block').innerText;
-    navigator.clipboard.writeText(code).then(() => {
-      alert('Copied to clipboard');
-    });
-  }
-</script>
+
 
