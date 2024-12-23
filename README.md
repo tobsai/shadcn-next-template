@@ -34,3 +34,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+<div>
+  <pre>
+    <code id="code-block">pnpm create next-app -e https://github.com/tobsai/shadcn-next-template</code>
+  </pre>
+  <button onclick="copyToClipboard()">Copy</button>
+</div>
+
+<script>
+  function copyToClipboard() {
+    const code = document.getElementById('code-block').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+      alert('Copied to clipboard');
+    });
+  }
+</script>
+
